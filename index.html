@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expense Tracker</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" href="icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="icons/favicon.svg" />
+    <link rel="shortcut icon" href="icons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Expense Tracker" />
+    <link rel="manifest" href="icons/site.webmanifest" />
 </head>
+
 <body>
     <div class="container">
         <div class="box">
@@ -21,12 +32,12 @@
 
             <div class="transaction-container">
                 <h3>Transactions</h3>
-                <hr/>
+                <hr />
 
                 <div class="transactions">
-                   
 
-                    
+
+
                 </div>
             </div>
 
@@ -36,12 +47,12 @@
                     <div class="inputs">
                         <div class="form-control">
                             <label for="text">Text</label>
-                            <input type="text" name="text" id="text" placeholder="Enter Description" required/>
+                            <input type="text" name="text" id="text" placeholder="Enter Description" required />
                         </div>
-                        
+
                         <div class="form-control">
                             <label for="amount">Amount</label>
-                            <input type="number" name="amount" id="amount" placeholder="Enter Amount" required/>
+                            <input type="number" name="amount" id="amount" placeholder="Enter Amount" required />
                         </div>
                     </div>
 
@@ -50,7 +61,7 @@
                             <p id="earning">₹0</p>
                             <p>Earnings</p>
                         </button>
-                        
+
                         <button type="submit" id="expBtn">
                             <p id="expense">₹0</p>
                             <p>Expense</p>
@@ -63,4 +74,5 @@
 
     <script src="./index.js"></script>
 </body>
+
 </html>
